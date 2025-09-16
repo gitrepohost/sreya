@@ -30,6 +30,7 @@ export default function ContactSection() {
       });
       setFormData({ name: "", email: "", phone: "", unitType: "", budget: "", message: "" });
       setIsSubmitting(false);
+      window.location.href = "/thank-you";
     }
   }, [state.succeeded, toast]);
 

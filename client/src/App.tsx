@@ -8,6 +8,7 @@ import PrivacyPolicyPage from "@/pages/PrivacyPolicyPage";
 import TermsOfServicePage from "@/pages/TermsOfServicePage";
 import DisclaimerPage from "@/pages/DisclaimerPage";
 import NotFound from "@/pages/not-found";
+import ThankYouPage from "@/pages/ThankYouPage";
 
 function Router() {
   return (
@@ -16,6 +17,7 @@ function Router() {
       <Route path="/privacy" component={PrivacyPolicyPage} />
       <Route path="/terms" component={TermsOfServicePage} />
       <Route path="/disclaimer" component={DisclaimerPage} />
+      <Route path="/thank-you" component={ThankYouPage} />
       {/* Fallback to 404 */}
       <Route component={NotFound} />
     </Switch>
